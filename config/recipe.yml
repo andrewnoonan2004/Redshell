@@ -49,7 +49,7 @@ modules:
     yt-dlp-fish-completion
     fish
     gnome-console
-    
+
       # - starship
     remove:
       - firefox # default firefox removed in favor of flatpak
@@ -72,8 +72,23 @@ modules:
       #  will be installed and set up
     custom-flatpaks:
       # this section is optional
-      # - Celluloid: io.github.celluloid_player.Celluloid
-      # - Krita: org.kde.krita
+      org.chromium.Chromium
+      com.github.rafostar.Clapper
+      org.mozilla.Thunderbird
+      com.bitwarden.desktop
+      org.libreoffice.LibreOffice
+      org.gnome.TextEditor
+      org.gnome.Music
+      org.gnome.Podcasts
+      org.videolan.VLC
+      io.missioncenter.MissionCenter
+      app.drey.Dialect
+      de.haeckerfelix.Fragments
+      de.haeckerfelix.Shortwave
+      com.github.hugolabe.Wike
+      org.gnome.Solanum
+      org.gnome.gitlab.somas.Apostrophe
+      
 
   - type: script
     scripts:
