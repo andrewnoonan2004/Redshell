@@ -72,23 +72,23 @@ modules:
       #  will be installed and set up
     custom-flatpaks:
       # this section is optional
-      org.chromium.Chromium
-      com.github.rafostar.Clapper
-      org.mozilla.Thunderbird
-      com.bitwarden.desktop
-      org.libreoffice.LibreOffice
-      org.gnome.TextEditor
-      org.gnome.Music
-      org.gnome.Podcasts
-      org.videolan.VLC
-      io.missioncenter.MissionCenter
-      app.drey.Dialect
-      de.haeckerfelix.Fragments
-      de.haeckerfelix.Shortwave
-      com.github.hugolabe.Wike
-      org.gnome.Solanum
-      org.gnome.gitlab.somas.Apostrophe
-      
+      Chromium: org.chromium.Chromium
+      Clapper: com.github.rafostar.Clapper
+      Thunderbird: org.mozilla.Thunderbird
+      Bitwarden: com.bitwarden.desktop
+      Libreoffice: org.libreoffice.LibreOffice
+      Gedit: org.gnome.TextEditor
+      Gnome Music: org.gnome.Music
+      Gnome Podcasts: org.gnome.Podcasts
+      VLC: org.videolan.VLC
+      Mission Center: io.missioncenter.MissionCenter
+      Dialect: app.drey.Dialect
+      Fragments: de.haeckerfelix.Fragments
+      Shortwave: de.haeckerfelix.Shortwave
+      Wike: com.github.hugolabe.Wike
+      Solanum: org.gnome.Solanum
+      Apostrophe: org.gnome.gitlab.somas.Apostrophe
+
 
   - type: script
     scripts:
