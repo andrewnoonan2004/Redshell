@@ -24,31 +24,31 @@ modules:
   - type: rpm-ostree
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-    neovim
-    java-17-openjdk
-    powertop
-    igt-gpu-tools
-    gnome-shell-extension-freon
-    gnome-shell-extension-appindicator
-    gnome-shell-extension-blur-my-shell
-    gnome-shell-extension-dash-to-dock
-    virt-install
-    libvirt-python
-    virt-manager
-    virt-install
-    libvirt-client
-    libguestfs
-    qemu-img
-    gnome-extensions-app
-    f38-backgrounds-extras-gnome
-    distrobox
-    pipx
-    gnome-shell-extension-pop-shell
-    yt-dlp
-    yt-dlp-bash-completion
-    yt-dlp-fish-completion
-    fish
-    gnome-console
+    - neovim
+    - java-17-openjdk
+    - powertop
+    - igt-gpu-tools
+    - gnome-shell-extension-freon
+    - gnome-shell-extension-appindicator
+    - gnome-shell-extension-blur-my-shell
+    - gnome-shell-extension-dash-to-dock
+    - virt-install
+    - libvirt-python
+    - virt-manager
+    - virt-install
+    - libvirt-client
+    - libguestfs
+    - qemu-img
+    - gnome-extensions-app
+    - f38-backgrounds-extras-gnome
+    - distrobox
+    - pipx
+    - gnome-shell-extension-pop-shell
+    - yt-dlp
+    - yt-dlp-bash-completion
+    - yt-dlp-fish-completion
+    - fish
+    - gnome-console
 
       # - starship
     remove:
