@@ -9,7 +9,7 @@ image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
-- modules:
+modules:
   - type: files
     files:
       - usr: /usr
@@ -20,6 +20,26 @@ image-version: latest # latest is also supported if you want new updates ASAP
           # configuration you wish to end up in /etc/ on the booted system
           # should be added into /usr/etc/ as that is the proper "distro"
           # config directory on ostree. Read more in the files module's README
+  - type: Systemd
+    system:
+    enabled:
+    - libvirtd.service
+  - type: script
+    scripts:
+      # this sets up the proper policy & signing files for signed images to work
+      - signing.sh
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode # don't add "Nerd Font" suffix.
+        - Hack
+        - SourceCodePro
+        - Terminus
+        - JetBrainsMono
+        - NerdFontsSymbolsOnly
+      google-fonts:
+         - Roboto
+         - Open Sans
 
   - type: rpm-ostree
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
@@ -89,23 +109,3 @@ image-version: latest # latest is also supported if you want new updates ASAP
       Solanum: org.gnome.Solanum
       Apostrophe: org.gnome.gitlab.somas.Apostrophe
 
-  - type: Systemd
-  system:
-    enabled:
-    - libvirtd.service
-  - type: script
-    scripts:
-      # this sets up the proper policy & signing files for signed images to work
-      - signing.sh
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - FiraCode # don't add "Nerd Font" suffix.
-        - Hack
-        - SourceCodePro
-        - Terminus
-        - JetBrainsMono
-        - NerdFontsSymbolsOnly
-      google-fonts:
-         - Roboto
-         - Open Sans
