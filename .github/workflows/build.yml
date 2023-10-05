@@ -20,6 +20,10 @@ on: # https://docs.github.com/en/actions/using-workflows/events-that-trigger-wor
 
 env:
   IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
+  IMAGE_NAME: redshell
+  IMAGE_DESCRIPTION: "Andrew's personal build of Silverblue, built on top of ublue!"
+  IMAGE_MAJOR_VERSION: 38
+  BASE_IMAGE_URL: ghcr.io/ublue-os/silverblue-main
 
 # Only deploys the branch named "live". Ignores all other branches, to allow
 # having "development" branches without interfering with GHCR image uploads.
