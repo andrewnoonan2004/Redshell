@@ -43,8 +43,6 @@ modules:
     install:
     - util-linux
     - neovim
-    - java-latest-openjdk
-    - java-latest-openjdk-devel
     - powertop
     - igt-gpu-tools
     - gnome-shell-extension-freon
@@ -60,14 +58,12 @@ modules:
     - gnome-extensions-app
     - f38-backgrounds-extras-gnome
     - distrobox
-    - pipx
     - gnome-shell-extension-pop-shell
     - yt-dlp
     - yt-dlp-bash-completion
     - yt-dlp-fish-completion
     - fish
     - gnome-console
-    - git
     - gnome-tweaks
     - papirus-icon-theme
     - alsa-tools
