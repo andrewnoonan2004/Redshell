@@ -65,7 +65,9 @@ modules:
     - yt-dlp-fish-completion
     - fish
     - gnome-console
-
+    - git
+    - gnome-tweaks
+    
       # - starship
     remove:
       - firefox # default firefox removed in favor of flatpak
