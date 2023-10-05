@@ -86,18 +86,18 @@ modules:
     # will be installed and set up
     custom-flatpaks:
       # this section is optional
-      Clapper: com.github.rafostar.Clapper
-      Thunderbird: org.mozilla.Thunderbird
-      Bitwarden: com.bitwarden.desktop
-      Libreoffice: org.libreoffice.LibreOffice
-      Gedit: org.gnome.TextEditor
-      Gnome Music: org.gnome.Music
-      Gnome Podcasts: org.gnome.Podcasts
-      VLC: org.videolan.VLC
-      Mission Center: io.missioncenter.MissionCenter
-      Dialect: app.drey.Dialect
-      Fragments: de.haeckerfelix.Fragments
-      Shortwave: de.haeckerfelix.Shortwave
-      Wike: com.github.hugolabe.Wike
-      Solanum: org.gnome.Solanum
-      Apostrophe: org.gnome.gitlab.somas.Apostrophe
+      #Clapper: com.github.rafostar.Clapper
+      #Thunderbird: org.mozilla.Thunderbird
+      #Bitwarden: com.bitwarden.desktop
+     # Libreoffice: org.libreoffice.LibreOffice
+    #  Gedit: org.gnome.TextEditor
+   #   Gnome Music: org.gnome.Music
+    #  Gnome Podcasts: org.gnome.Podcasts
+    #  VLC: org.videolan.VLC
+#      Mission Center: io.missioncenter.MissionCenter
+  #    Dialect: app.drey.Dialect
+#      Fragments: de.haeckerfelix.Fragments
+  #    Shortwave: de.haeckerfelix.Shortwave
+ #     Wike: com.github.hugolabe.Wike
+#      Solanum: org.gnome.Solanum
+   #   Apostrophe: org.gnome.gitlab.somas.Apostrophe
