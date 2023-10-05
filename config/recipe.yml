@@ -67,6 +67,7 @@ modules:
     - gnome-console
     - git
     - gnome-tweaks
+    - papirus-icon-theme
     
       # - starship
     remove:
