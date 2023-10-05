@@ -38,7 +38,8 @@ modules:
          - Open Sans
 
   - type: rpm-ostree
-    repos: https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo 
+    repos: 
+      - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/vscodium.repo 
     install:
     - util-linux
     - neovim
