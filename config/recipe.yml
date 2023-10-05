@@ -39,7 +39,7 @@ modules:
 
   - type: rpm-ostree
     repos: 
-      - https://download.vscodium.com/rpms/
+       #- https://download.vscodium.com/rpms/
     install:
     - util-linux
     - neovim
@@ -73,7 +73,6 @@ modules:
     - alsa-utils
     - pavucontrol
     - alsa-firmware
-    - codium
       # - starship
     remove:
       - firefox # default firefox removed in favor of flatpak
