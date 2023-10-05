@@ -49,7 +49,6 @@ modules:
     - gnome-shell-extension-blur-my-shell
     - gnome-shell-extension-dash-to-dock
     - virt-install
-    - libvirt-python
     - virt-manager
     - virt-install
     - libvirt-client
