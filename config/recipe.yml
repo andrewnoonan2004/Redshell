@@ -89,8 +89,23 @@ modules:
       Solanum: org.gnome.Solanum
       Apostrophe: org.gnome.gitlab.somas.Apostrophe
 
-
+  - type: Systemd
+  system:
+    enabled:
+    - libvirtd.service
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode # don't add "Nerd Font" suffix.
+        - Hack
+        - SourceCodePro
+        - Terminus
+        - JetBrainsMono
+        - NerdFontsSymbolsOnly
+      google-fonts:
+         - Roboto
+         - Open Sans
