@@ -39,7 +39,7 @@ modules:
 
   - type: rpm-ostree
     repos: 
-      - https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/rpms/
+      - https://download.vscodium.com/rpms/
     install:
     - util-linux
     - neovim
