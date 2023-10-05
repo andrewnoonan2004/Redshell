@@ -86,7 +86,6 @@ modules:
     # will be installed and set up
     custom-flatpaks:
       # this section is optional
-      Chromium: org.chromium.Chromium
       Clapper: com.github.rafostar.Clapper
       Thunderbird: org.mozilla.Thunderbird
       Bitwarden: com.bitwarden.desktop
