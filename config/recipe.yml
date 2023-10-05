@@ -43,7 +43,7 @@ modules:
     install:
     - util-linux
     - neovim
-    - java-17-openjdk
+    - java-17-openjdk-devel
     - powertop
     - igt-gpu-tools
     - gnome-shell-extension-freon
