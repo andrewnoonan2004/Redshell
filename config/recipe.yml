@@ -13,13 +13,13 @@ modules:
   - type: files
     files:
       - usr: /usr
-          # copy static configurations
-          #
-          # copies config/files/usr into your image's /usr
-          #
-          # configuration you wish to end up in /etc/ on the booted system
-          # should be added into /usr/etc/ as that is the proper "distro"
-          # config directory on ostree. Read more in the files module's README
+         # copy static configurations
+         #
+         # copies config/files/usr into your image's /usr
+         #
+         # configuration you wish to end up in /etc/ on the booted system
+         # should be added into /usr/etc/ as that is the proper "distro"
+         # config directory on ostree. Read more in the files module's README
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
@@ -81,10 +81,9 @@ modules:
       # - dconf-update-service # a service unit that updates the dconf db on boot
       # - devpod # https://devpod.sh/ as an rpm
 
-
   - type: yafti
-      # if included, yafti and it's dependencies (pip & libadwaita)
-      #  will be installed and set up
+    # if included, yafti and it's dependencies (pip & libadwaita)
+    # will be installed and set up
     custom-flatpaks:
       # this section is optional
       Chromium: org.chromium.Chromium
@@ -103,4 +102,3 @@ modules:
       Wike: com.github.hugolabe.Wike
       Solanum: org.gnome.Solanum
       Apostrophe: org.gnome.gitlab.somas.Apostrophe
-
