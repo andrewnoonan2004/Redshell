@@ -38,7 +38,7 @@ modules:
          - Open Sans
 
   - type: rpm-ostree
-    repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    repos: - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo 
     install:
     - util-linux
     - neovim
@@ -68,7 +68,10 @@ modules:
     - git
     - gnome-tweaks
     - papirus-icon-theme
-    
+    - alsa-tools
+    - alsa-utils
+    - pavucontrol
+    - alsa-firmware 
       # - starship
     remove:
       - firefox # default firefox removed in favor of flatpak
