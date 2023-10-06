@@ -33,3 +33,6 @@ This repository by default also supports signing.
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
 ## Description of the image
 This image is heavily inspired by bluefin-dx, but with yaru theming removed as well as proprietary tools like VSCode. I also choose to include some utilities that I find useful in the base image that don't run well in Distrobox, such as powertop and intel gpu monitoring tools, and fish as the default shell.
+## Just
+Just support is inherited from *Ublue/Starting Point*
+to use the Just commands more conveniently, make sure to alias just to just --unstable in your preferred shell.
