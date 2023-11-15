@@ -51,7 +51,6 @@ modules:
     - gnome-shell-extension-dash-to-dock
     - virt-install
     - virt-manager
-    - java-17-openjdk-devel
     - libvirt-client
     - libguestfs
     - qemu-img
