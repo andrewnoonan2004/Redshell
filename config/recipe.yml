@@ -55,8 +55,6 @@ modules:
     - libvirt-client
     - libguestfs
     - qemu-img
-    - gnome-extensions-app
-    - f38-backgrounds-extras-gnome
     - distrobox
     - gnome-shell-extension-pop-shell
     - yt-dlp
@@ -66,11 +64,16 @@ modules:
     - gnome-console
     - gnome-tweaks
     - papirus-icon-theme
-    - alsa-tools
-    - alsa-utils
     - pavucontrol
-    - alsa-firmware
-      # - starship
+    - radeontop
+    - geany
+    - geany-plugins-common
+    - geany-plugins-markdown
+    - geany-plugins-overview
+    - geany-plugins-autoclose
+    - geany-plugins-automark
+    - geany-plugins-geanyvc
+    
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
